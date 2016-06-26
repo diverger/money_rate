@@ -8,6 +8,7 @@
 # 我想在定期存款到期前转存为其他产品，我会赚还是会赔呢？算一算吧
 from datetime import date
 from datetime import datetime, timedelta
+import sys
 
 def get_input_date(prompt):
     try:
